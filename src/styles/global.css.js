@@ -9,6 +9,8 @@ const GlobalStyle = createGlobalStyle`
 
     &:root {
         --ff-primary: 'Inter', sans-serif;
+
+        --clr-primary: whitesmoke;
     }
 
     html, body {
@@ -17,11 +19,13 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background: rgb(194,221,255);
-        background: linear-gradient(90deg,
-            rgba(194,221,255,1) 8%,
-            rgba(233,201,242,1) 41%,
-            rgba(183,209,240,1) 76%);
+        background: rgb(9,9,121);
+        background: linear-gradient(0deg,
+            rgba(9,9,121,0.6) 70%,
+            rgba(9,9,121,0.2) 100%),
+            url(${props => props.$photo});
+        background-repeat: no-repeat;
+        background-size: cover;
         overflow: hidden;
     }
 `

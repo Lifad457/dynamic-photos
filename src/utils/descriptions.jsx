@@ -6,11 +6,16 @@ export default function description(photoIndex) {
             <h1>Voyage Époustouflant au Cœur de l&apos;Antelope Canyon</h1>
             <h3>Découvrez la magie sculpturale de l&apos;Antelope Canyon, 
                 une merveille naturelle nichée au cœur du désert de l&apos;Arizona.
+                <br/>
+                <br/>
                   Plongez dans les dédales de ses parois de grès, striées par le temps,
                   où la lumière du soleil crée des jeux d&apos;ombres et de couleurs à couper
                     le souffle. Cette gorge étroite, façonnée par l&apos;érosion, offre
                     une expérience visuelle unique, avec ses formes sinueuses et ses
-                      nuances de rouge, orange et violet. L&apos;Antelope Canyon, un joyau
+                      nuances de rouge, orange et violet.
+                <br/>
+                <br/>
+                      L&apos;Antelope Canyon, un joyau
                       géologique, est une invitation à l&apos;émerveillement et à la
                         contemplation de la beauté éphémère de la nature.
               </h3>
@@ -24,10 +29,16 @@ export default function description(photoIndex) {
                géologique façonnée par le puissant Colorado. Situé près de Page,
                 en Arizona, ce méandre spectaculaire offre une vue à couper le souffle
                  sur les eaux tourbillonnantes du fleuve qui ont sculpté avec grâce les
-                  parois rocheuses rouges. Laissez-vous émerveiller par la forme élégante
+                  parois rocheuses rouges.
+                  <br/>
+                  <br/>
+                  Laissez-vous émerveiller par la forme élégante
                    de cette courbe en fer à cheval, où le contraste entre le bleu
                     profond du ciel, le vert vif de la rivière et les teintes rouges
-                     du canyon crée un tableau inoubliable. Horseshoe Bend est
+                     du canyon crée un tableau inoubliable.
+                  <br/>
+                  <br/>
+                    Horseshoe Bend est
                       une destination incontournable pour les amateurs de paysages
                        grandioses et de photographie.
               </h3>
@@ -47,7 +58,10 @@ export default function description(photoIndex) {
                      créent un spectacle visuel inoubliable. Explorez les sentiers
                       sinueux, respirez l&apos;air pur des montagnes, et laissez-vous
                        envoûter par la splendeur indomptée de la nature à l&apos;état pur
-                        dans ce joyau naturel préservé. Yosemite est bien plus qu&apos;un parc
+                        dans ce joyau naturel préservé.
+                      <br/>
+                      <br/>
+                        Yosemite est bien plus qu&apos;un parc
                          national, c&apos;est une symphonie de la beauté sauvage qui 
                          captive les cœurs et nourrit l&apos;âme des visiteurs du monde entier.
               </h3>
@@ -61,11 +75,16 @@ export default function description(photoIndex) {
                bohème à la splendeur de la baie. Nichée sur les collines ondulantes
                 de la côte californienne, cette métropole emblématique allie une
                  architecture victorienne pittoresque à des panoramas à couper le
-                  souffle sur le pont du Golden Gate. Flânez le long des rues sinueuses
+                  souffle sur le pont du Golden Gate.
+                  <br/>
+                      <br/>
+                  Flânez le long des rues sinueuses
                    de la ville, imprégnées de l&apos;esprit artistique du quartier
                     de Haight-Ashbury, puis explorez les quais animés de Fisherman&apos;s Wharf.
                      Vibrez au rythme de la vie urbaine dynamique tout en contemplant
                       l&apos;emblématique ligne d&apos;horizon ponctuée de gratte-ciels. 
+                      <br/>
+                      <br/>
                       Que vous embarquiez à bord d&apos;un mythique tramway, traversiez
                        le pont emblématique ou vous relaxiez dans le célèbre parc
                         de Golden Gate, San Francisco offre une expérience inoubliable
@@ -84,6 +103,7 @@ export default function description(photoIndex) {
                   qui a accueilli certains des criminels les plus notoires de l&apos;histoire
                    américaine, et parcourez ses cellules austères qui résonnent encore
                     des échos d&apos;une époque révolue.
+              <br/>
               <br/>
                 L&apos;île, autrefois impénétrable, dévoile aujourd&apos;hui ses mystères
                  à travers des visites guidées immersives. Découvrez les récits
@@ -106,6 +126,7 @@ export default function description(photoIndex) {
                   Enjambant l&apos;horizon marin avec grâce, le Golden Gate offre des
                    vues panoramiques à couper le souffle sur la ville, les collines
                     ondulantes et l&apos;océan Pacifique à perte de vue.
+            <br/>
             <br/>
                 Explorez ses trottoirs accessibles aux piétons et ressentez la brise
                  marine tandis que vous traversez cette merveille d&apos;ingénierie. 
