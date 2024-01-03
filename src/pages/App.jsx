@@ -18,7 +18,7 @@ function App() {
   const [photoIndex, setPhotoIndex] = useState(1);
   const [inProp, setInProp] = useState(true);
   const [text, setText] = useState(description(photoIndex));
-  const nodeRef = useRef(null);
+  const desc = useRef(null);
   const nbPhotos = 6;
 
   function handleScroll(e) {
@@ -31,12 +31,21 @@ function App() {
         setInProp(true);
         setPhotoIndex(photoIndex - 1);
         setText(description(photoIndex - 1));
+      } else {
+        setInProp(true);
+        setPhotoIndex(nbPhotos);
+        setText(description(nbPhotos));
       }
     }
     else if (photoIndex === nbPhotos && e.deltaY < 0) {
       setInProp(true);
       setPhotoIndex(photoIndex - 1);
       setText(description(photoIndex - 1));
+    }
+    else if (photoIndex === nbPhotos && e.deltaY > 0) {
+      setInProp(true);
+      setPhotoIndex(1);
+      setText(description(1));
     }
   }
 
@@ -73,12 +82,12 @@ function App() {
         </LeftCol>
         <RightCol>
           <CSSTransition
-            nodeRef={nodeRef}
+            nodeRef={desc}
             in={inProp}
             timeout={1000}
             classNames="fade"
           >
-            <div ref={nodeRef}>
+            <div ref={desc}>
               { text }
               <Button><span>En Savoir Plus ...</span></Button>
             </div>

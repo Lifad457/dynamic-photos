@@ -6,10 +6,6 @@ export const Container = styled.div`
     flex-direction: row;
     min-height: 100vh;
     justify-content: center;
-    
-    @media (max-width: 1200px) {
-        flex-direction: column;
-    }
 `
 export const LeftCol = styled.div`
     display: flex;
@@ -18,10 +14,9 @@ export const LeftCol = styled.div`
     justify-content: center;
     min-width: 700px;
 
-    @media (max-width: 1200px) {
-        margin: 25rem 0;
-        overflow: unset;
-    }
+    @media screen and (max-width: 1200px) {
+        display: none;
+    }  
 `
 export const RightCol = styled.div`
     display: flex;
@@ -50,7 +45,22 @@ export const RightCol = styled.div`
     h3 {
         font-size: 1.5rem;
         text-align: justify;
+        font-weight: var(--fw-medium);
     }
+
+    @media screen and (max-width: 1500px), (max-height: 900px) {
+        padding: 2.5rem;
+        line-height: 1.2;
+
+        h1 {
+            font-size: 1.6rem;
+            margin-bottom: 1rem;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+        }
+    }  
 `
 const myFadeOut = keyframes`
     from {
@@ -87,7 +97,7 @@ export const Wrapper = styled.div`
     z-index: ${props => props.$index};
     animation: ${animation};
     animation-fill-mode: forwards;
-    border: 10px solid whitesmoke;
+    border: 10px solid whitesmoke; 
 `
 export const StyledLink = styled(Link)`
     display: inline-block;
@@ -109,4 +119,10 @@ export const StyledLink = styled(Link)`
     &:hover {
         box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.3);
     }
+
+    @media screen and (max-width: 1500px) {
+        span {
+            font-size: 1rem;
+        }
+    } 
 `

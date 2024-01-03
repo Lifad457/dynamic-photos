@@ -9,7 +9,11 @@ const GlobalStyle = createGlobalStyle`
 
     &:root {
         --ff-primary: 'Inter', sans-serif;
-
+        --fw-light: 300;
+        --fw-regular: 400;
+        --fw-medium: 500;
+        --fw-bold: 700;
+        --fw-black: 900;
         --clr-primary: whitesmoke;
     }
 
