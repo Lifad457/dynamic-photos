@@ -20,6 +20,7 @@ function App() {
   const [text, setText] = useState(description(photoIndex));
   const desc = useRef(null);
   const nbPhotos = 6;
+  const photo = [photo1, photo2, photo3, photo4, photo5, photo6];
 
   function handleScroll(e) {
     if (photoIndex >= 1 && photoIndex < nbPhotos) {
@@ -58,7 +59,7 @@ function App() {
 
   return (
     <>
-      <GlobalStyle $photo={drapeau} />
+      <GlobalStyle $photo={drapeau} $photo2={photo[photoIndex - 1]} />
       <Container onWheel={handleScroll}>
         <LeftCol>
           <Card $photo={photo1} $index={15} 

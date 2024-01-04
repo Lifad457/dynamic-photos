@@ -31,6 +31,24 @@ const GlobalStyle = createGlobalStyle`
         background-repeat: no-repeat;
         background-size: cover;
         overflow: hidden;
+
+        @media screen and (max-width: 1200px) {
+            background: linear-gradient(0deg,
+            rgba(9,9,121,0.6) 70%,
+            rgba(9,9,121,0.2) 100%),
+            url(${props => props.$photo2});
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        @media screen and (min-height: 1200px) {
+            background: linear-gradient(0deg,
+            rgba(9,9,121,0.6) 70%,
+            rgba(9,9,121,0.2) 100%),
+            url(${props => props.$photo});
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
     }
 `
 export default GlobalStyle
