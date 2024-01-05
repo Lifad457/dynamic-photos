@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import styled, { css, keyframes } from "styled-components";
+import { Link } from "react-router-dom";
 
 export const Container = styled.div`
     display: flex;
@@ -120,24 +120,22 @@ export const RightCol = styled.div`
 `
 export const StyledLink = styled(Link)`
     display: inline-block;
-    align-self: flex-start;
     text-decoration: none;
     color: var(--clr-primary);
     background-color: transparent;
-    font-size: 1.5rem;
     margin-top: 3rem;
     border-radius: 0.5rem;
     border: 1px solid var(--clr-primary);
-    padding: 0.5rem 1rem;
+    padding: 0.7rem 1.1rem;
     cursor: pointer;
-
+    
     span {
         font-size: 1.3rem;
     }
 
     transition: 0.3s ease-in-out;
     &:hover {
-        box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.3);
+        background-color: rgba(255, 255, 128, .1);
     }
 
     @media screen and (max-width: 1500px) {

@@ -32,7 +32,7 @@ const GlobalStyle = createGlobalStyle`
         background-size: cover;
         overflow: hidden;
 
-        @media screen and (max-width: 1200px) {
+        @media screen and (max-width: 1200px) and (orientation: portrait) {
             background: linear-gradient(0deg,
             rgba(9,9,121,0.6) 70%,
             rgba(9,9,121,0.2) 100%),
